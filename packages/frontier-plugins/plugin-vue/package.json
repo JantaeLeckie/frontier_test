@@ -1,6 +1,6 @@
 {
   "name": "@rdfrontier/plugin-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Realdecoy",
   "bin": {
     "rdvue": "./bin/run"
@@ -10,8 +10,8 @@
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.2",
-    "@rdfrontier/plugin-shared": "^0.0.1",
-    "@rdfrontier/stdlib": "^0.0.1",
+    "@rdfrontier/plugin-shared": "^0.0.2",
+    "@rdfrontier/stdlib": "^0.0.2",
     "bluebird": "^3.7.2",
     "chalk": "^4.1.0",
     "cli-ux": "^5.5.1",
