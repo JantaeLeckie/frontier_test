@@ -31,9 +31,10 @@ jobs:
       with:
         node_version: 16
     - name: Install Packages
-      run: |
-        yarn install
-        yarn build
+      run: yarn install
+    
+    - name: Build Packages
+      run: yarn build
 
     - name: Set Github Configuration
       run: |
