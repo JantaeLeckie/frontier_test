@@ -9,7 +9,7 @@
 
 # Frontier  
 
-[Frontier](https://github.com/@jantaeleckie/frontier_test),  Bringing a new frontier to software engineering. 
+[Frontier](https://github.com/JantaeLeckie/frontier_test),  Bringing a new frontier to software engineering. 
 
 Frontier brings together engineering standards across disciplines for ease of use, promoting consistent software development.<br />
  
@@ -82,17 +82,17 @@ yarn run typecheck
 
 | Name | Package | Status | More Information
 | --- | --- | --- | --- |
-| Backend           | `@jantaeleckie/plugin-backend`      | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
-| Spring Boot       | `@jantaeleckie/plugin-java`         | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
-| Javascript        | `@jantaeleckie/plugin-js`           | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
-| .Net              | `@jantaeleckie/plugin-dotnet`       | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
-| Frontend          | `@jantaeleckie/plugin-frontend`     | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
+| Backend           | `@jantaeleckie/plugin-backend`      | Pre-Technical Proposal | [ Read More ](https://github.com/JantaeLeckie/frontier_test) |
+| Spring Boot       | `@jantaeleckie/plugin-java`         | Pre-Technical Proposal | [ Read More ](https://github.com/JantaeLeckie/frontier_test) |
+| Javascript        | `@jantaeleckie/plugin-js`           | Pre-Technical Proposal | [ Read More ](https://github.com/JantaeLeckie/frontier_test) |
+| .Net              | `@jantaeleckie/plugin-dotnet`       | Pre-Technical Proposal | [ Read More ](https://github.com/JantaeLeckie/frontier_test) |
+| Frontend          | `@jantaeleckie/plugin-frontend`     | Pre-Technical Proposal | [ Read More ](https://github.com/JantaeLeckie/frontier_test) |
 | Vue               | `@jantaeleckie/plugin-vue`          | Ready                | [ Read More ](https://github.com/JantaeLeckie/frontier_test/tree/main/packages/frontier-plugins/plugin-vue) |
-| React             | `@jantaeleckie/plugin-react`        | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
+| React             | `@jantaeleckie/plugin-react`        | Pre-Technical Proposal | [ Read More ](https://github.com/JantaeLeckie/frontier_test) |
 | QA                | `@jantaeleckie/plugin-qa`           | Ready                  | [ Read More ](https://github.com/JantaeLeckie/frontier_test/tree/main/packages/frontier-plugins/plugin-qa) |
-| Mobile            | `@jantaeleckie/plugin-mobile`       | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
-| React Native      | `@jantaeleckie/plugin-react-native` | Technical Proposal     | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
-| Infrastructure    | `@jantaeleckie/plugin-iac`          | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
+| Mobile            | `@jantaeleckie/plugin-mobile`       | Pre-Technical Proposal | [ Read More ](https://github.com/JantaeLeckie/frontier_test) |
+| React Native      | `@jantaeleckie/plugin-react-native` | Technical Proposal     | [ Read More ](https://github.com/JantaeLeckie/frontier_test) |
+| Infrastructure    | `@jantaeleckie/plugin-iac`          | Pre-Technical Proposal | [ Read More ](https://github.com/JantaeLeckie/frontier_test) |
 
 &nbsp;
 &nbsp;

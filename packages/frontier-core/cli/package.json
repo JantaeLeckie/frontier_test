@@ -6,7 +6,7 @@
   "bin": {
     "frontier": "./bin/run"
   },
-  "homepage": "https://github.com/@jantaeleckie/frontier_test",
+  "homepage": "https://github.com/JantaeLeckie/frontier_test",
   "license": "UNLICENSED",
   "main": "dist/index.js",
   "files": [
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/@jantaeleckie/frontier_test.git",
+    "url": "https://github.com/JantaeLeckie/frontier_test.git",
     "directory": "packages/frontier-core/cli"
   },
   "publishConfig": {
