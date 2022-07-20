@@ -11,10 +11,10 @@
     "module/",
     "types/"
   ],
-  "homepage": "https://github.com/@jantaeleckie/frontier_test",
+  "homepage": "https://github.com/JantaeLeckie/frontier_test",
   "repository": {
     "type": "git",
-    "url": "https://github.com/@jantaeleckie/frontier_test.git",
+    "url": "https://github.com/JantaeLeckie/frontier_test.git",
     "directory": "packages/frontier-plugins/plugin-shared"
   },
   "publishConfig": {

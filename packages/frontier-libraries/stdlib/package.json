@@ -4,10 +4,10 @@
   "description": "stdlib functionality",
   "license": "UNLICENSED",
   "author": "Realdecoy",
-  "homepage": "https://github.com/@jantaeleckie/frontier_test",
+  "homepage": "https://github.com/JantaeLeckie/frontier_test",
   "repository": {
     "type": "git",
-    "url": "https://github.com/@jantaeleckie/frontier_test.git",
+    "url": "https://github.com/JantaeLeckie/frontier_test.git",
     "directory": "packages/frontier-libraries/stdlib"
   },
   "main": "dist/index.js",

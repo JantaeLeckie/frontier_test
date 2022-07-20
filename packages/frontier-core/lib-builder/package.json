@@ -4,14 +4,14 @@
   "description": "Builds TS packages into tree-shaking compatible npm modules",
   "license": "UNLICENSED",
   "author": "Gareth Thomas <oforevergareth@gmail.com>",
-  "homepage": "https://github.com/@jantaeleckie/frontier_test",
+  "homepage": "https://github.com/JantaeLeckie/frontier_test",
   "main": "index.js",
   "bin": {
     "build-package": "./index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/@jantaeleckie/frontier_test.git",
+    "url": "https://github.com/JantaeLeckie/frontier_test.git",
     "directory": "packages/frontier-core/lib-builder"
   },
   "publishConfig": {

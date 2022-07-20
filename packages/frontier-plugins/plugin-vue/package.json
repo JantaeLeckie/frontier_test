@@ -75,10 +75,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/@jantaeleckie/frontier_test.git",
+    "url": "git+https://github.com/JantaeLeckie/frontier_test.git",
     "directory": "packages/frontier-plugins/plugin-vue"
   },
-  "homepage": "https://github.com/@jantaeleckie/frontier_test",
+  "homepage": "https://github.com/JantaeLeckie/frontier_test",
   "publishConfig": {
     "access": "public"
   },
