@@ -1,7 +1,8 @@
 # When a pull request is merged for a branch with prefix “release/****” and a 
 # version label to the main branch, trigger a github workflow to update the a 
-# changelog with the current versions changes 
-# Github actions folder has been updated 
+# changelog with the current versions changes. When merged, the workflow should 
+# create a pull request to the main branch collecting all changes for a release.
+
 name: 'Update Changelog on Merged PR Releases and Create Release PR'
 on:
   pull_request:
@@ -19,7 +20,7 @@ jobs:
           any_of: 'Semver: major,Type: Breaking Change,Semver: minor,Type: Feature,Semver: patch,Type: Bug'
           repo_token: ${{ secrets.GITHUB_TOKEN }}
      
-  build:
+  update_changeset:
     needs: check_labels
     runs-on: ubuntu-latest
     if: github.event.pull_request.merged == true
@@ -63,24 +64,9 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         PR_NUMBER: ${{ github.event.pull_request.number }} 
 
-  publish:
-    needs: build
-    name: Update or Create Pull Request
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      - name: Install Packages
-        run: yarn install
-      - name: Build Packages
-        run: yarn build:packages
-      - name: Create Release Pull Request
-        uses: changesets/action@v1
-        with:
-          commit: "chore: release changeset"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Create/Update Release Pull Request
+      uses: changesets/action@v1
+      with:
+        commit: "chore: release changeset"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
