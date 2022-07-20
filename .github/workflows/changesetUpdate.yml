@@ -14,6 +14,7 @@ jobs:
   check_labels:
     name: Check labels
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true && contains(github.head_ref, 'ref/heads/release/')
     steps:
       - uses: docker://agilepathway/pull-request-label-checker:latest
         with:
@@ -45,8 +46,7 @@ jobs:
         git config --global user.name "${{github.actor}}"
 
     - name: PR to Changesets
-      run: |
-        echo 'owner ${OWNER} repo ${REPO} pullRequestNumber ${PR_NUMBER} output ".changeset/${OWNER}-${REPO}-${PR_NUMBER}.md'
+      run: 
         npx pr-to-changesets --config .github/pr-to-changesets.json --owner ${OWNER} --repo ${REPO} --pullRequestNumber ${PR_NUMBER} --output ".changeset/${OWNER}-${REPO}-${PR_NUMBER}.md"
       env:
         OWNER: ${{ github.event.pull_request.head.repo.owner.login }}
@@ -69,7 +69,6 @@ jobs:
     - name: Create/Update Release Pull Request
       uses: changesets/action@v1
       with:
-        commit: "chore: release changeset for pr ${PR_NUMBER}"
+        commit: "chore: release changeset"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PR_NUMBER: ${{ github.event.pull_request.number }}
