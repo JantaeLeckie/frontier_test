@@ -25,7 +25,6 @@ jobs:
     needs: check_labels
     name: Update Changesets
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true && contains(github.head_ref, 'release/')
     steps:
     - name: Setup Checkout 
       uses: actions/checkout@v3

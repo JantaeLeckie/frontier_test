@@ -9,7 +9,7 @@
 
 # Frontier Plugin Shared Functions Library
 
-### @rdfrontier/plugin-shared
+### @jantaeleckie/plugin-shared
 A library of common functionalities utilized amongst the frontier plugins available. 
 
 
@@ -32,13 +32,13 @@ A library of common functionalities utilized amongst the frontier plugins availa
 ## Installation
 
 ```sh
-$ yarn add @rdfrontier/plugin-shared
+$ yarn add @jantaeleckie/plugin-shared
 ```
 
 or 
 
 ```sh
-$ npm install @rdfrontier/plugin-shared
+$ npm install @jantaeleckie/plugin-shared
 ```
 
 &nbsp;
@@ -47,7 +47,7 @@ $ npm install @rdfrontier/plugin-shared
 ## Usage
 
 ```sh
-Eg: import { invalidProject } from '@rdfrontier/plugin-shared';
+Eg: import { invalidProject } from '@jantaeleckie/plugin-shared';
 ```
 
 

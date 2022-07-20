@@ -6,13 +6,13 @@ import { Command, flags } from '@oclif/command';
 import path from 'path';
 import chalk from 'chalk';
 import { Files } from 'modules';
-import { isJsonString } from '@rdfrontier/stdlib';
+import { isJsonString } from '@jantaeleckie/stdlib';
 import { copyFiles, parseDynamicObjects, parseModuleConfig } from '../../../utils/files';
 import { checkProjectValidity } from '../../../utils/utilities';
 import { CLI_COMMANDS, CLI_STATE, DYNAMIC_OBJECTS } from '../../../utils/constants';
 import { injectImportsIntoMain, injectModulesIntoMain } from '../../../utils/plugins';
-import { catchError } from '@rdfrontier/plugin-shared';;
-import { invalidProject } from '@rdfrontier/plugin-shared';
+import { catchError } from '@jantaeleckie/plugin-shared';;
+import { invalidProject } from '@jantaeleckie/plugin-shared';
 
 const TEMPLATE_FOLDERS = ['vuetify'];
 const TEMPLATE_MIN_VERSION_SUPPORTED = 2;

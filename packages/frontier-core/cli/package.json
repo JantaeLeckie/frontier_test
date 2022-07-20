@@ -1,12 +1,12 @@
 {
-  "name": "@rdfrontier/cli",
+  "name": "@jantaeleckie/cli",
   "version": "0.0.3",
   "description": "Frontier: Software Development Toolkit",
   "author": "Realdecoy Labs",
   "bin": {
     "frontier": "./bin/run"
   },
-  "homepage": "https://github.com/realdecoy/frontier",
+  "homepage": "https://github.com/@jantaeleckie/frontier_test",
   "license": "UNLICENSED",
   "main": "dist/index.js",
   "files": [
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/realdecoy/frontier.git",
+    "url": "https://github.com/@jantaeleckie/frontier_test.git",
     "directory": "packages/frontier-core/cli"
   },
   "publishConfig": {
@@ -27,11 +27,11 @@
     "@oclif/core": "^1",
     "@oclif/plugin-help": "^5",
     "@oclif/plugin-plugins": "^2.0.1",
-    "@rdfrontier/stdlib": "^0.0.2"
+    "@jantaeleckie/stdlib": "^0.0.2"
   },
   "devDependencies": {
     "@oclif/test": "^2",
-    "@rdfrontier/lib-builder": "^1.0.0",
+    "@jantaeleckie/lib-builder": "^1.0.0",
     "@types/chai": "^4",
     "@types/node": "^16.9.4",
     "chai": "^4",
@@ -82,7 +82,7 @@
   "engines": {
     "node": ">=12.0.0"
   },
-  "bugs": "https://github.com/realdecoy/frontier/issues",
+  "bugs": "https://github.com/JantaeLeckie/frontier_test/issues",
   "keywords": [
     "oclif"
   ],

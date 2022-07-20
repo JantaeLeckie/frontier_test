@@ -1,17 +1,17 @@
 {
-  "name": "@rdfrontier/plugin-vue",
+  "name": "@jantaeleckie/plugin-vue",
   "version": "1.0.1",
   "author": "Realdecoy",
   "bin": {
     "rdvue": "./bin/run"
   },
-  "bugs": "https://github.com/realdecoy/frontier/issues",
+  "bugs": "https://github.com/JantaeLeckie/frontier_test/issues",
   "dependencies": {
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.2",
-    "@rdfrontier/plugin-shared": "^0.0.2",
-    "@rdfrontier/stdlib": "^0.0.2",
+    "@jantaeleckie/plugin-shared": "^0.0.2",
+    "@jantaeleckie/stdlib": "^0.0.2",
     "bluebird": "^3.7.2",
     "chalk": "^4.1.0",
     "cli-ux": "^5.5.1",
@@ -27,7 +27,7 @@
   "devDependencies": {
     "@oclif/dev-cli": "^1.26.0",
     "@oclif/test": "^1.2.8",
-    "@rdfrontier/lib-builder": "^1.0.0",
+    "@jantaeleckie/lib-builder": "^1.0.0",
     "@types/bluebird": "^3.5.33",
     "@types/chai": "^4.2.15",
     "@types/inquirer": "^7.3.1",
@@ -75,10 +75,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/realdecoy/frontier.git",
+    "url": "git+https://github.com/@jantaeleckie/frontier_test.git",
     "directory": "packages/frontier-plugins/plugin-vue"
   },
-  "homepage": "https://github.com/realdecoy/frontier",
+  "homepage": "https://github.com/@jantaeleckie/frontier_test",
   "publishConfig": {
     "access": "public"
   },

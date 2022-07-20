@@ -1,4 +1,4 @@
-# @rdfrontier/stdlib
+# @jantaeleckie/stdlib
 
 ## 0.0.2
 

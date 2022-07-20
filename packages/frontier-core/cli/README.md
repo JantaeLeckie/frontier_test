@@ -46,11 +46,11 @@ command using the syntax:
 ### Install
 
 ```bash
-npm install -g @rdfrontier/cli
+npm install -g @jantaeleckie/cli
 ```
 or 
 ```bash
-yarn global add @rdfrontier/cli
+yarn global add @jantaeleckie/cli
 ```
 
 &nbsp; &nbsp;

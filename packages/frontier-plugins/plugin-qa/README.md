@@ -9,11 +9,11 @@
 
 # Spectre
 
-### @rdfrontier/plugin-qa
+### @jantaeleckie/plugin-qa
 CLI to generate web automation projects
 
-[![Version](https://img.shields.io/npm/v/rdspec.svg)](https://www.npmjs.com/package/@rdfrontier/plugin-qa)
-[![Downloads/week](https://img.shields.io/npm/dw/rdspec.svg)](https://www.npmjs.com/package/@rdfrontier/plugin-qa)
+[![Version](https://img.shields.io/npm/v/rdspec.svg)](https://www.npmjs.com/package/@jantaeleckie/plugin-qa)
+[![Downloads/week](https://img.shields.io/npm/dw/rdspec.svg)](https://www.npmjs.com/package/@jantaeleckie/plugin-qa)
 
 &nbsp; &nbsp; &nbsp;
 
@@ -34,7 +34,7 @@ CLI to generate web automation projects
 <!-- custom-usage -->
 Installing Spectre can be done with the command:
 ```bash
-$ frontier plugins:install @rdfrontier/plugin-qa
+$ frontier plugins:install @jantaeleckie/plugin-qa
 ```
 
 The help menu can be accessed with the command:
@@ -82,7 +82,7 @@ OPTIONS
 ```
 
 _See code:
-[src/commands/create-mobile-project/index.ts](https://github.com/realdecoy/frontier/blob/main/packages/frontier-plugins/plugin-qa/src/commands/qa/create-mobile-project/index.ts)_
+[src/commands/create-mobile-project/index.ts](https://github.com/JantaeLeckie/frontier_test/blob/main/packages/frontier-plugins/plugin-qa/src/commands/qa/create-mobile-project/index.ts)_
 
 ## `frontier qa:create-page-object [NAME]`
 
@@ -104,7 +104,7 @@ EXAMPLE
 ```
 
 _See code:
-[src/commands/create-page-object/index.ts](https://github.com/realdecoy/frontier/blob/main/packages/frontier-plugins/plugin-qa/src/commands/qa/create-page-object/index.ts)_
+[src/commands/create-page-object/index.ts](https://github.com/JantaeLeckie/frontier_test/blob/main/packages/frontier-plugins/plugin-qa/src/commands/qa/create-page-object/index.ts)_
 
 ## `frontier qa:create-project [NAME]`
 
@@ -122,7 +122,7 @@ OPTIONS
 ```
 
 _See code:
-[src/commands/create-project/index.ts](https://github.com/realdecoy/frontier/blob/main/packages/frontier-plugins/plugin-qa/src/commands/qa/create-project/index.ts)_
+[src/commands/create-project/index.ts](https://github.com/JantaeLeckie/frontier_test/blob/main/packages/frontier-plugins/plugin-qa/src/commands/qa/create-project/index.ts)_
 
 ## `frontier qa:create-screen-object [NAME]`
 
@@ -144,7 +144,7 @@ EXAMPLE
 ```
 
 _See code:
-[src/commands/create-screen-object/index.ts](https://github.com/realdecoy/frontier/blob/main/packages/frontier-plugins/plugin-qa/src/commands/qa/create-screen-object/index.ts)_
+[src/commands/create-screen-object/index.ts](https://github.com/JantaeLeckie/frontier_test/blob/main/packages/frontier-plugins/plugin-qa/src/commands/qa/create-screen-object/index.ts)_
 
 ## `frontier qa:create-test [NAME]`
 
@@ -166,7 +166,7 @@ EXAMPLE
 ```
 
 _See code:
-[src/commands/create-test/index.ts](https://github.com/realdecoy/frontier/blob/main/packages/frontier-plugins/plugin-qa/src/commands/qa/create-test/index.ts)_
+[src/commands/create-test/index.ts](https://github.com/JantaeLeckie/frontier_test/blob/main/packages/frontier-plugins/plugin-qa/src/commands/qa/create-test/index.ts)_
 
 ## `frontier qa:[COMMAND] --help `
 

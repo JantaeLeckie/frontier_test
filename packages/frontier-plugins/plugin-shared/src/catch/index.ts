@@ -1,4 +1,4 @@
-import { isJsonString, log } from '@rdfrontier/stdlib';
+import { isJsonString, log } from '@jantaeleckie/stdlib';
 const CUSTOM_ERROR_CODES = [
   'project-invalid',
   'failed-match-and-replace',

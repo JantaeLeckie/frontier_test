@@ -2,11 +2,11 @@ import shell from 'shelljs';
 import { Command, flags } from '@oclif/command';
 import path from 'path';
 import chalk from 'chalk';
-import { isJsonString } from '@rdfrontier/stdlib';
+import { isJsonString } from '@jantaeleckie/stdlib';
 import { checkProjectValidity } from '../../../utils/utilities';
 import { CLI_COMMANDS, CLI_STATE, TEMPLATE_REPO, TEMPLATE_ROOT, TEMPLATE_TAG } from '../../../utils/constants';
-import { catchError } from '@rdfrontier/plugin-shared';;
-import { invalidProject } from '@rdfrontier/plugin-shared';
+import { catchError } from '@jantaeleckie/plugin-shared';;
+import { invalidProject } from '@jantaeleckie/plugin-shared';
 
 const CUSTOM_ERROR_CODES = [
   'project-invalid',

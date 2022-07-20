@@ -3,13 +3,13 @@
   "private": true,
   "version": "1.0.0",
   "description": "Realdecoy Labs Shared Libraries",
-  "homepage": "https://github.com/realdecoy/frontier/blob/main/package.json",
+  "homepage": "https://github.com/JantaeLeckie/frontier_test/blob/main/package.json",
   "main": "index.js",
   "author": "Realdecoy",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/realdecoy/frontier"
+    "url": "https://github.com/@jantaeleckie/frontier_test"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",

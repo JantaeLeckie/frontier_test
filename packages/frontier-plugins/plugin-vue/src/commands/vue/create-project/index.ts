@@ -4,7 +4,7 @@ import { Command, flags } from '@oclif/command';
 import Buefy from '../plugin/buefy';
 import Localization from '../plugin/localization';
 import Vuetify from '../plugin/vuetify';
-import { toKebabCase } from '@rdfrontier/stdlib';
+import { toKebabCase } from '@jantaeleckie/stdlib';
 import { parseProjectName, checkProjectValidity, parseProjectPresets } from '../../../utils/utilities';
 import { replaceInFiles, checkIfFolderExists } from '../../../utils/files';
 import {
@@ -17,8 +17,8 @@ import {
   CLI_STATE,
   PLUGIN_PRESET_LIST,
 } from '../../../utils/constants';
-import { catchError } from '@rdfrontier/plugin-shared';;
-import { existingProject, fileNotChanged } from '@rdfrontier/plugin-shared';
+import { catchError } from '@jantaeleckie/plugin-shared';;
+import { existingProject, fileNotChanged } from '@jantaeleckie/plugin-shared';
 
 const CUSTOM_ERROR_CODES = [
   'existing-project',
