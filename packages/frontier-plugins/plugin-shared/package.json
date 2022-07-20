@@ -1,6 +1,6 @@
 {
   "name": "@rdfrontier/plugin-shared",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "plugin shared functionalities",
   "license": "UNLICENSED",
   "author": "Realdecoy",
@@ -43,7 +43,7 @@
   "types": "types/index.d.ts",
   "dependencies": {
     "@babel/runtime": "^7.15.0",
-    "@rdfrontier/stdlib": "^0.0.1"
+    "@rdfrontier/stdlib": "^0.0.2"
   },
   "devDependencies": {
     "@rdfrontier/lib-builder": "^1.0.0"

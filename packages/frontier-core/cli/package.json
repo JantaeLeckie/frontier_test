@@ -1,6 +1,6 @@
 {
   "name": "@rdfrontier/cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Frontier: Software Development Toolkit",
   "author": "Realdecoy Labs",
   "bin": {
@@ -27,7 +27,7 @@
     "@oclif/core": "^1",
     "@oclif/plugin-help": "^5",
     "@oclif/plugin-plugins": "^2.0.1",
-    "@rdfrontier/stdlib": "^0.0.1"
+    "@rdfrontier/stdlib": "^0.0.2"
   },
   "devDependencies": {
     "@oclif/test": "^2",
