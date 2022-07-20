@@ -32,7 +32,7 @@ jobs:
         node_version: 16
     - name: Install Packages
       run: yarn install
-    
+
     - name: Build Packages
       run: yarn build:packages
 
@@ -74,6 +74,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 14
+      - name: Install Packages
+        run: yarn install
       - name: Create Release Pull Request
         uses: changesets/action@v1
         env:
