@@ -9,7 +9,7 @@
 
 # Frontier Standard Library
 
-### @rdfrontier/stdlib
+### @jantaeleckie/stdlib
 A collection of functions/logic that are written in pure TypeScript with limited dependencies. These functions expose generic concepts available for use throughout different projects. 
 
 &nbsp;
@@ -31,12 +31,12 @@ A collection of functions/logic that are written in pure TypeScript with limited
 ## Installation
 
 ```sh
-$ yarn add --save--dev @rdfrontier/stdlib
+$ yarn add --save--dev @jantaeleckie/stdlib
 ```
 or 
 
 ```sh
-$ npm install --save--dev @rdfrontier/stdlib
+$ npm install --save--dev @jantaeleckie/stdlib
 ```
 &nbsp;
 &nbsp;
@@ -44,7 +44,7 @@ $ npm install --save--dev @rdfrontier/stdlib
 ## Usage
 
 ```sh
-Eg: import { log } from '@rdfrontier/stdlib';
+Eg: import { log } from '@jantaeleckie/stdlib';
 ```
 
 

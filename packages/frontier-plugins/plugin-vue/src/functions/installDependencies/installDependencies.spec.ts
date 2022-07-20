@@ -12,7 +12,7 @@ describe('test the install dependencies function', () => {
     let spy = jest.spyOn(console, 'log');
     const preInstallCommand = "cd " + __dirname + " &&"
     try {
-        await installDepenedencies(pluginName, false, "testInstall", preInstallCommand, "@rdfrontier/stdlib", "typescript", undefined  )
+        await installDepenedencies(pluginName, false, "testInstall", preInstallCommand, "@jantaeleckie/stdlib", "typescript", undefined  )
         expect(spy).toContain(`installing ${pluginName} dev dependencies`)
     } catch (error) {
         let err;
@@ -29,7 +29,7 @@ describe('test the install dependencies function', () => {
   it("should pass if installation was skipped",  async function () {
     try {
       let spy = jest.spyOn(process.stdout, 'write');
-      await installDepenedencies("localization", true, "testInstall", "cd test", "@rdfrontier/stdlib", "eslint", "testInstall"  )
+      await installDepenedencies("localization", true, "testInstall", "cd test", "@jantaeleckie/stdlib", "eslint", "testInstall"  )
       expect(spy).toContain("npx add-dependencies")
     } catch (error) {
         let err;

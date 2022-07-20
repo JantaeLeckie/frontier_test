@@ -9,7 +9,7 @@
 
 # Frontier Type Library
 
-### @rdfrontier/typekit
+### @jantaeleckie/typekit
 A library of common reusable types. 
 
 
@@ -32,13 +32,13 @@ A library of common reusable types.
 ## Installation
 
 ```sh
-$ yarn add --save--dev @rdfrontier/typekit
+$ yarn add --save--dev @jantaeleckie/typekit
 ```
 
 or 
 
 ```sh
-$ npm install --save--dev @rdfrontier/typekit
+$ npm install --save--dev @jantaeleckie/typekit
 ```
 
 &nbsp;
@@ -47,7 +47,7 @@ $ npm install --save--dev @rdfrontier/typekit
 ## Usage
 
 ```sh
-import { SuccessCode } from '@rdfrontier/typekit';
+import { SuccessCode } from '@jantaeleckie/typekit';
 
 console.log(SuccessCode.Countinue)
 ```

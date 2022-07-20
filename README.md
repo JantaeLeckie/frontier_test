@@ -9,7 +9,7 @@
 
 # Frontier  
 
-[Frontier](https://github.com/realdecoy/frontier),  Bringing a new frontier to software engineering. 
+[Frontier](https://github.com/@jantaeleckie/frontier_test),  Bringing a new frontier to software engineering. 
 
 Frontier brings together engineering standards across disciplines for ease of use, promoting consistent software development.<br />
  
@@ -82,17 +82,17 @@ yarn run typecheck
 
 | Name | Package | Status | More Information
 | --- | --- | --- | --- |
-| Backend           | `@rdfrontier/plugin-backend`      | Pre-Technical Proposal | [ Read More ](https://github.com/realdecoy/frontier) |
-| Spring Boot       | `@rdfrontier/plugin-java`         | Pre-Technical Proposal | [ Read More ](https://github.com/realdecoy/frontier) |
-| Javascript        | `@rdfrontier/plugin-js`           | Pre-Technical Proposal | [ Read More ](https://github.com/realdecoy/frontier) |
-| .Net              | `@rdfrontier/plugin-dotnet`       | Pre-Technical Proposal | [ Read More ](https://github.com/realdecoy/frontier) |
-| Frontend          | `@rdfrontier/plugin-frontend`     | Pre-Technical Proposal | [ Read More ](https://github.com/realdecoy/frontier) |
-| Vue               | `@rdfrontier/plugin-vue`          | Ready                | [ Read More ](https://github.com/realdecoy/frontier/tree/main/packages/frontier-plugins/plugin-vue) |
-| React             | `@rdfrontier/plugin-react`        | Pre-Technical Proposal | [ Read More ](https://github.com/realdecoy/frontier) |
-| QA                | `@rdfrontier/plugin-qa`           | Ready                  | [ Read More ](https://github.com/realdecoy/frontier/tree/main/packages/frontier-plugins/plugin-qa) |
-| Mobile            | `@rdfrontier/plugin-mobile`       | Pre-Technical Proposal | [ Read More ](https://github.com/realdecoy/frontier) |
-| React Native      | `@rdfrontier/plugin-react-native` | Technical Proposal     | [ Read More ](https://github.com/realdecoy/frontier) |
-| Infrastructure    | `@rdfrontier/plugin-iac`          | Pre-Technical Proposal | [ Read More ](https://github.com/realdecoy/frontier) |
+| Backend           | `@jantaeleckie/plugin-backend`      | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
+| Spring Boot       | `@jantaeleckie/plugin-java`         | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
+| Javascript        | `@jantaeleckie/plugin-js`           | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
+| .Net              | `@jantaeleckie/plugin-dotnet`       | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
+| Frontend          | `@jantaeleckie/plugin-frontend`     | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
+| Vue               | `@jantaeleckie/plugin-vue`          | Ready                | [ Read More ](https://github.com/JantaeLeckie/frontier_test/tree/main/packages/frontier-plugins/plugin-vue) |
+| React             | `@jantaeleckie/plugin-react`        | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
+| QA                | `@jantaeleckie/plugin-qa`           | Ready                  | [ Read More ](https://github.com/JantaeLeckie/frontier_test/tree/main/packages/frontier-plugins/plugin-qa) |
+| Mobile            | `@jantaeleckie/plugin-mobile`       | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
+| React Native      | `@jantaeleckie/plugin-react-native` | Technical Proposal     | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
+| Infrastructure    | `@jantaeleckie/plugin-iac`          | Pre-Technical Proposal | [ Read More ](https://github.com/@jantaeleckie/frontier_test) |
 
 &nbsp;
 &nbsp;
@@ -101,8 +101,8 @@ yarn run typecheck
 
 | Name | Package | Status | More Information
 | --- | --- | --- | --- |
-| Frontier Standard Library  | `@rdfrontier/stdlib`      | Ready | [ Read More ](https://github.com/realdecoy/frontier/tree/main/packages/frontier-libraries/stdlib) |
-| Frontier TypeKit           | `@rdfrontier/typekit`       | Ready | [ Read More ](https://github.com/realdecoy/frontier/tree/main/packages/frontier-libraries/typekit) |
+| Frontier Standard Library  | `@jantaeleckie/stdlib`      | Ready | [ Read More ](https://github.com/JantaeLeckie/frontier_test/tree/main/packages/frontier-libraries/stdlib) |
+| Frontier TypeKit           | `@jantaeleckie/typekit`       | Ready | [ Read More ](https://github.com/JantaeLeckie/frontier_test/tree/main/packages/frontier-libraries/typekit) |
 
 &nbsp; &nbsp; &nbsp;
 
@@ -224,8 +224,8 @@ npm run nuke:artifacts
 &nbsp; &nbsp; &nbsp;
 
 ## Creating a frontier based project
-#### [Adam](https://github.com/realdecoy/frontier/tree/main/templates/adam)
-To support the creation of new frointer-based projects a template, [Adam](https://github.com/realdecoy/frontier/tree/main/templates/adam), has been provided to allow for easier development. This template provides the basic structure needed to develop a simple frontier-based project. 
+#### [Adam](https://github.com/JantaeLeckie/frontier_test/tree/main/templates/adam)
+To support the creation of new frointer-based projects a template, [Adam](https://github.com/JantaeLeckie/frontier_test/tree/main/templates/adam), has been provided to allow for easier development. This template provides the basic structure needed to develop a simple frontier-based project. 
 
 
 ## Contribution Instructions 

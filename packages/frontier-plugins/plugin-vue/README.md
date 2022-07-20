@@ -14,8 +14,8 @@ strong typing with TypeScript, standardized Component, Layout and Page models,
 and a data-layer design promoting unified consumption through Stores and
 Services.
 
-[![Version](https://img.shields.io/npm/v/rdvue.svg)](https://www.npmjs.com/package/@rdfrontier/plugin-vue)
-[![Downloads/week](https://img.shields.io/npm/dw/rdvue.svg)](https://www.npmjs.com/package/@rdfrontier/plugin-vue)
+[![Version](https://img.shields.io/npm/v/rdvue.svg)](https://www.npmjs.com/package/@jantaeleckie/plugin-vue)
+[![Downloads/week](https://img.shields.io/npm/dw/rdvue.svg)](https://www.npmjs.com/package/@jantaeleckie/plugin-vue)
 
 &nbsp; &nbsp; &nbsp;
 
@@ -45,7 +45,7 @@ giving us feedback on new/existing features.
 <!-- custom-usage -->
 Installing RDVue can be done with the command:
 ```bash
-$ frontier plugins:install @rdfrontier/plugin-vue
+$ frontier plugins:install @jantaeleckie/plugin-vue
 ```
 
 The help menu can be accessed with the command:
@@ -98,7 +98,7 @@ OPTIONS
 ```
 
 _See code:
-[src/commands/create-project/index.ts](https://github.com/realdecoy/frontier/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/create-project/index.ts)_
+[src/commands/create-project/index.ts](https://github.com/JantaeLeckie/frontier_test/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/create-project/index.ts)_
 
 ### `frontier vue:add:component [NAME]`
 
@@ -116,7 +116,7 @@ OPTIONS
 ```
 
 _See code:
-[src/commands/add/component/index.ts](https://github.com/realdecoy/frontier/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/add/component.ts)_
+[src/commands/add/component/index.ts](https://github.com/JantaeLeckie/frontier_test/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/add/component.ts)_
 
 
 ### `frontier vue:add:page [NAME]`
@@ -139,7 +139,7 @@ EXAMPLE
 ```
 
 _See code:
-[src/commands/add/page/index.ts](https://github.com/realdecoy/frontier/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/add/page.ts)_
+[src/commands/add/page/index.ts](https://github.com/JantaeLeckie/frontier_test/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/add/page.ts)_
 
 
 ### `frontier vue:add:service [NAME]`
@@ -158,7 +158,7 @@ OPTIONS
 ```
 
 _See code:
-[src/commands/add:service/index.ts](https://github.com/realdecoy/frontier/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/add/service.ts)_
+[src/commands/add:service/index.ts](https://github.com/JantaeLeckie/frontier_test/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/add/service.ts)_
 
 ### `frontier vue:add:store [NAME]`
 
@@ -180,7 +180,7 @@ EXAMPLE
 ```
 
 _See code:
-[src/commands/add/store/index.ts](https://github.com/realdecoy/frontier/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/add/store.ts)_
+[src/commands/add/store/index.ts](https://github.com/JantaeLeckie/frontier_test/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/add/store.ts)_
 
 ### `frontier vue:plugin [NAME]`
 
@@ -214,7 +214,7 @@ OPTIONS
 ```
 
 _See code:
-[src/commands/plugin/buefy/index.ts](https://github.com/realdecoy/frontier/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/plugin/buefy.ts)_
+[src/commands/plugin/buefy/index.ts](https://github.com/JantaeLeckie/frontier_test/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/plugin/buefy.ts)_
 
 ### `frontier vue:plugin:localization`
 
@@ -231,7 +231,7 @@ OPTIONS
 ```
 
 _See code:
-[src/commands/plugin/localization/index.ts](https://github.com/realdecoy/frontier/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/plugin/localization.ts)_
+[src/commands/plugin/localization/index.ts](https://github.com/JantaeLeckie/frontier_test/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/plugin/localization.ts)_
 
 ### `frontier vue:plugin:vuetify`
 
@@ -247,7 +247,7 @@ OPTIONS
 ```
 
 _See code:
-[src/commands/plugin/vuetify/index.ts](https://github.com/realdecoy/frontier/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/plugin/vuetify.ts)_
+[src/commands/plugin/vuetify/index.ts](https://github.com/JantaeLeckie/frontier_test/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/plugin/vuetify.ts)_
 
 
 ## `frontier vue:upgrade [NAME]`
@@ -267,7 +267,7 @@ OPTIONS
 ```
 
 _See code:
-[src/commands/upgrade/index.ts](https://github.com/realdecoy/frontier/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/upgrade/index.ts)_
+[src/commands/upgrade/index.ts](https://github.com/JantaeLeckie/frontier_test/blob/main/packages/frontier-plugins/plugin-vue/src/commands/vue/upgrade/index.ts)_
 
 <!-- custom-commandsstop -->
 

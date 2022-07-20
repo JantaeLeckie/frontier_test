@@ -17,7 +17,7 @@ ts.lib). Webpack is left to do the bundling for the dist output.
 ## Install
 
 ```
-yarn add -D @rdfrontier/lib-builder
+yarn add -D @jantaeleckie/lib-builder
 ```
 
 ## CLI Usage

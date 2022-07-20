@@ -1,7 +1,7 @@
 import path from 'path';
 import { Files } from 'modules';
 import { copyFiles, parseModuleConfig, readAndUpdateFeatureFiles, replaceTargetFileNames } from '../../utils/files';
-import { toKebabCase, toPascalCase } from '@rdfrontier/stdlib'; 
+import { toKebabCase, toPascalCase } from '@jantaeleckie/stdlib'; 
 
 
 /**

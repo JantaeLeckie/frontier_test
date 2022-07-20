@@ -1,5 +1,5 @@
 {
-  "name": "@rdfrontier/plugin-shared",
+  "name": "@jantaeleckie/plugin-shared",
   "version": "0.0.2",
   "description": "plugin shared functionalities",
   "license": "UNLICENSED",
@@ -11,10 +11,10 @@
     "module/",
     "types/"
   ],
-  "homepage": "https://github.com/realdecoy/frontier",
+  "homepage": "https://github.com/@jantaeleckie/frontier_test",
   "repository": {
     "type": "git",
-    "url": "https://github.com/realdecoy/frontier.git",
+    "url": "https://github.com/@jantaeleckie/frontier_test.git",
     "directory": "packages/frontier-plugins/plugin-shared"
   },
   "publishConfig": {
@@ -43,10 +43,10 @@
   "types": "types/index.d.ts",
   "dependencies": {
     "@babel/runtime": "^7.15.0",
-    "@rdfrontier/stdlib": "^0.0.2"
+    "@jantaeleckie/stdlib": "^0.0.2"
   },
   "devDependencies": {
-    "@rdfrontier/lib-builder": "^1.0.0"
+    "@jantaeleckie/lib-builder": "^1.0.0"
   },
   "browserslist": [
     "chrome 38",

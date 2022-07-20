@@ -1,23 +1,23 @@
 {
   "version": 2,
   "projects": {
-    "@rdfrontier/cli": {
+    "@jantaeleckie/cli": {
       "root": "packages/frontier-core/cli",
       "type": "library"
     },
-    "@rdfrontier/lib-builder": {
+    "@jantaeleckie/lib-builder": {
       "root": "packages/frontier-core/lib-builder",
       "type": "library"
     },
-    "@rdfrontier/types": {
+    "@jantaeleckie/types": {
       "root": "packages/frontier-libraries/typekit",
       "type": "library"
     },
-    "@rdfrontier/stdlib": {
+    "@jantaeleckie/stdlib": {
       "root": "packages/frontier-libraries/stdlib",
       "type": "library"
     },
-    "@rdfrontier/plugin-shared": {
+    "@jantaeleckie/plugin-shared": {
       "root": "packages/frontier-plugins/frontier-shared",
       "type": "library"
     }
