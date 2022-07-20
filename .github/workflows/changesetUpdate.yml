@@ -83,4 +83,4 @@ jobs:
         with:
           commit: "chore: release changeset"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}s
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
