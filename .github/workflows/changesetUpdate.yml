@@ -65,7 +65,7 @@ jobs:
 
   publish:
     needs: build
-    name: Publish or Create Pull Request
+    name: Update or Create Pull Request
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -80,5 +80,7 @@ jobs:
         run: yarn build:packages
       - name: Create Release Pull Request
         uses: changesets/action@v1
+        with:
+          commit: "chore: release changeset"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}s
