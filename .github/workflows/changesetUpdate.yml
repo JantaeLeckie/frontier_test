@@ -7,7 +7,7 @@ on:
   pull_request:
     branches:
       - 'test'
-    types: [closed]
+    types: [open]
       
 jobs:
   check_labels:
