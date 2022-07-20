@@ -1,7 +1,7 @@
 {
   "name": "@rdfrontier/plugin-qa",
   "description": "QA toolchain for generating automation projects",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "RealDecoy",
   "bin": {
     "rdspec": "./bin/run"
@@ -11,7 +11,7 @@
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.2",
-    "@rdfrontier/stdlib": "^0.0.1",
+    "@rdfrontier/stdlib": "^0.0.2",
     "chalk": "^4.1.1",
     "replace-in-file": "^6.2.0",
     "shelljs": "^0.8.4",
