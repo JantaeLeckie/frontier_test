@@ -76,6 +76,8 @@ jobs:
           node-version: 16
       - name: Install Packages
         run: yarn install
+      - name: Build Packages
+        run: yarn build:packages
       - name: Create Release Pull Request
         uses: changesets/action@v1
         env:
