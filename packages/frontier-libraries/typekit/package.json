@@ -1,6 +1,6 @@
 {
   "name": "@jantaeleckie/typekit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Useful and relevant types",
   "license": "UNLICENSED",
   "author": "Realdecoy",
@@ -39,7 +39,7 @@
     "@babel/runtime": "^7.15.0"
   },
   "devDependencies": {
-    "@jantaeleckie/lib-builder": "^1.0.0"
+    "@jantaeleckie/lib-builder": "^1.0.1"
   },
   "browserslist": [
     "chrome 38",

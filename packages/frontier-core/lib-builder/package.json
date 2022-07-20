@@ -1,6 +1,6 @@
 {
   "name": "@jantaeleckie/lib-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Builds TS packages into tree-shaking compatible npm modules",
   "license": "UNLICENSED",
   "author": "Gareth Thomas <oforevergareth@gmail.com>",
