@@ -1,7 +1,7 @@
 
 <div align="left">
   <br/>
-  <a href="https://www.realdecoy.com/jamaica/" title="REALDECOY">
+  <a href="https://www.realdecoy.com/jamaica/" title="REALDECOY FRONTIER">
     <img width=400px src="https://www.realdecoy.com/wp-content/uploads/2019/02/Realdecoy-logo-transparent.png" alt="rd logo">
   </a>
   <br/>
