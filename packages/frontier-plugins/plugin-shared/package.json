@@ -43,7 +43,7 @@
   "types": "types/index.d.ts",
   "dependencies": {
     "@babel/runtime": "^7.15.0",
-    "@jantaeleckie/stdlib": "^0.0.7"
+    "@jantaeleckie/stdlib": "^0.0.8"
   },
   "devDependencies": {
     "@jantaeleckie/lib-builder": "^1.0.2"
@@ -51,5 +51,6 @@
   "browserslist": [
     "chrome 38",
     "ios >= 9"
-  ]
+  ],
+  "gitHead": "f3bdab89bf6efdcac2c8eaeac26f862d4cf08801"
 }

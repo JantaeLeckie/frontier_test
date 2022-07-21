@@ -24,14 +24,14 @@
     "access": "public"
   },
   "dependencies": {
+    "@jantaeleckie/stdlib": "^0.0.8",
     "@oclif/core": "^1",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.0.1",
-    "@jantaeleckie/stdlib": "^0.0.7"
+    "@oclif/plugin-plugins": "^2.0.1"
   },
   "devDependencies": {
-    "@oclif/test": "^2",
     "@jantaeleckie/lib-builder": "^1.0.2",
+    "@oclif/test": "^2",
     "@types/chai": "^4",
     "@types/node": "^16.9.4",
     "chai": "^4",
@@ -87,5 +87,5 @@
     "oclif"
   ],
   "types": "dist/index.d.ts",
-  "gitHead": "de7e199ab5ac8b36ffe4674b482069ddbfed6b15"
+  "gitHead": "f3bdab89bf6efdcac2c8eaeac26f862d4cf08801"
 }

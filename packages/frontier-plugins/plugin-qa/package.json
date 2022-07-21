@@ -8,7 +8,7 @@
   },
   "bugs": "https://github.com/JantaeLeckie/frontier_test/issues",
   "dependencies": {
-    "@jantaeleckie/stdlib": "^0.0.7",
+    "@jantaeleckie/stdlib": "^0.0.8",
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.2",
@@ -18,9 +18,9 @@
     "tslib": "^1.14.1"
   },
   "devDependencies": {
+    "@jantaeleckie/lib-builder": "^1.0.2",
     "@oclif/dev-cli": "^1.26.0",
     "@oclif/test": "^1.2.8",
-    "@jantaeleckie/lib-builder": "^1.0.2",
     "@types/chai": "^4.2.19",
     "@types/mocha": "^5.2.7",
     "@types/node": "^10.17.60",
@@ -94,5 +94,5 @@
     "typecheck": "tsc --noEmit"
   },
   "types": "lib/index.d.ts",
-  "gitHead": "de7e199ab5ac8b36ffe4674b482069ddbfed6b15"
+  "gitHead": "f3bdab89bf6efdcac2c8eaeac26f862d4cf08801"
 }
