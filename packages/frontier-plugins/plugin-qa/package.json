@@ -8,7 +8,7 @@
   },
   "bugs": "https://github.com/JantaeLeckie/frontier_test/issues",
   "dependencies": {
-    "@jantaeleckie/stdlib": "^0.0.1",
+    "@jantaeleckie/stdlib": "^0.0.7",
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.2",
