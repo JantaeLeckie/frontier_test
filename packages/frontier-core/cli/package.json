@@ -27,7 +27,7 @@
     "@oclif/core": "^1",
     "@oclif/plugin-help": "^5",
     "@oclif/plugin-plugins": "^2.0.1",
-    "@jantaeleckie/stdlib": "^0.0.1"
+    "@jantaeleckie/stdlib": "^0.0.7"
   },
   "devDependencies": {
     "@oclif/test": "^2",
