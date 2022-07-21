@@ -1,5 +1,17 @@
 # @jantaeleckie/cli
 
+## 0.0.5
+
+### Patch Changes
+
+- 045a0e2: all packages updated to jantaeleckie 5
+  [#28](https://github.com/JantaeLeckie/frontier_test/pull/28)
+
+  npm publish test
+
+- Updated dependencies [045a0e2]
+  - @jantaeleckie/stdlib@0.0.4
+
 ## 0.0.4
 
 ### Patch Changes
