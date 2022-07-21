@@ -1,5 +1,13 @@
 # @jantaeleckie/plugin-vue
 
+## 1.0.5
+
+### Patch Changes
+
+- Updated dependencies [41189c6]
+  - @jantaeleckie/stdlib@0.0.6
+  - @jantaeleckie/plugin-shared@0.0.6
+
 ## 1.0.4
 
 ### Patch Changes
