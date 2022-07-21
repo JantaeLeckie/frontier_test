@@ -1,5 +1,18 @@
 # @jantaeleckie/plugin-vue
 
+## 1.0.8
+
+### Patch Changes
+
+- d610379: Release/workflow testing
+  [#38](https://github.com/JantaeLeckie/frontier_test/pull/38)
+
+  Testing the npm release again
+
+- Updated dependencies [d610379]
+  - @jantaeleckie/stdlib@0.0.9
+  - @jantaeleckie/plugin-shared@0.0.9
+
 ## 1.0.7
 
 ### Patch Changes

@@ -1,5 +1,12 @@
 # @jantaeleckie/plugin-shared
 
+## 0.0.9
+
+### Patch Changes
+
+- Updated dependencies [d610379]
+  - @jantaeleckie/stdlib@0.0.9
+
 ## 0.0.8
 
 ### Patch Changes
