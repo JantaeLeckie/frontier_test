@@ -106,5 +106,6 @@
     "version": "oclif-dev readme && git add README.md",
     "typecheck": "tsc --noEmit"
   },
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "gitHead": "de7e199ab5ac8b36ffe4674b482069ddbfed6b15"
 }
