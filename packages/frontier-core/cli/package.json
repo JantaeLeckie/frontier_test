@@ -1,6 +1,6 @@
 {
   "name": "@jantaeleckie/cli",
-  "version": "0.0.3",
+  "version": "0.0.8",
   "description": "Frontier: Software Development Toolkit",
   "author": "Realdecoy Labs",
   "bin": {
@@ -24,14 +24,14 @@
     "access": "public"
   },
   "dependencies": {
-    "@jantaeleckie/stdlib": "^0.0.2",
     "@oclif/core": "^1",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.0.1"
+    "@oclif/plugin-plugins": "^2.0.1",
+    "@jantaeleckie/stdlib": "^0.0.7"
   },
   "devDependencies": {
-    "@jantaeleckie/lib-builder": "^1.0.0",
     "@oclif/test": "^2",
+    "@jantaeleckie/lib-builder": "^1.0.2",
     "@types/chai": "^4",
     "@types/node": "^16.9.4",
     "chai": "^4",
