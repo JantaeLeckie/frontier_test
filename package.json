@@ -26,7 +26,7 @@
     "precommit": "test && lint-staged",
     "prepare": "husky install",
     "add-changesets": "changeset add",
-    "release-ci": "lerna publish from-package --y --no-verify-access"
+    "release-ci": "npx lerna publish from-package --no-verify-access --yes"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.17.0",
