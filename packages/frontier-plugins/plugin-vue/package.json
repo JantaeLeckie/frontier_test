@@ -1,6 +1,6 @@
 {
   "name": "@jantaeleckie/plugin-vue",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Realdecoy",
   "bin": {
     "rdvue": "./bin/run"
@@ -19,8 +19,8 @@
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.2",
-    "@jantaeleckie/plugin-shared": "^0.0.6",
-    "@jantaeleckie/stdlib": "^0.0.6",
+    "@jantaeleckie/plugin-shared": "^0.0.7",
+    "@jantaeleckie/stdlib": "^0.0.7",
     "bluebird": "^3.7.2",
     "chalk": "^4.1.0",
     "cli-ux": "^5.5.1",

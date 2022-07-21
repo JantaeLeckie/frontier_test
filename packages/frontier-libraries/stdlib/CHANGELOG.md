@@ -1,5 +1,16 @@
 # @jantaeleckie/stdlib
 
+## 0.0.7
+
+### Patch Changes
+
+- 3d6a494: stdlib folder - package.json prepack and postpack updated
+  [#34](https://github.com/JantaeLeckie/frontier_test/pull/34)
+
+  stdlib folder updated
+
+  - package.json file update postpack and prepack
+
 ## 0.0.6
 
 ### Patch Changes
