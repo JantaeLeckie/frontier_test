@@ -16,11 +16,11 @@
   },
   "bugs": "https://github.com/JantaeLeckie/frontier_test/issues",
   "dependencies": {
+    "@jantaeleckie/plugin-shared": "^0.0.2",
+    "@jantaeleckie/stdlib": "^0.0.2",
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.2",
-    "@jantaeleckie/plugin-shared": "^0.0.2",
-    "@jantaeleckie/stdlib": "^0.0.2",
     "bluebird": "^3.7.2",
     "chalk": "^4.1.0",
     "cli-ux": "^5.5.1",
@@ -34,9 +34,9 @@
     "util": "^0.12.4"
   },
   "devDependencies": {
+    "@jantaeleckie/lib-builder": "^1.0.0",
     "@oclif/dev-cli": "^1.26.0",
     "@oclif/test": "^1.2.8",
-    "@jantaeleckie/lib-builder": "^1.0.0",
     "@types/bluebird": "^3.5.33",
     "@types/chai": "^4.2.15",
     "@types/inquirer": "^7.3.1",
@@ -106,5 +106,6 @@
     "version": "oclif-dev readme && git add README.md",
     "typecheck": "tsc --noEmit"
   },
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "gitHead": "de7e199ab5ac8b36ffe4674b482069ddbfed6b15"
 }
