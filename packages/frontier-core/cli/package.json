@@ -1,6 +1,6 @@
 {
   "name": "@jantaeleckie/cli",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Frontier: Software Development Toolkit",
   "author": "Realdecoy Labs",
   "bin": {
