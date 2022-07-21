@@ -16,7 +16,7 @@
   },
   "bugs": "https://github.com/JantaeLeckie/frontier_test/issues",
   "dependencies": {
-    "@jantaeleckie/plugin-shared": "^0.0.7",
+    "@jantaeleckie/plugin-shared": "^0.0.8",
     "@jantaeleckie/stdlib": "^0.0.8",
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
