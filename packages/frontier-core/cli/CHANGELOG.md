@@ -1,5 +1,12 @@
 # @jantaeleckie/cli
 
+## 0.0.9
+
+### Patch Changes
+
+- Updated dependencies [89a5499]
+  - @jantaeleckie/stdlib@0.0.8
+
 ## 0.0.8
 
 ### Patch Changes
