@@ -1,5 +1,20 @@
 # @jantaeleckie/plugin-vue
 
+## 1.0.4
+
+### Patch Changes
+
+- 6c21843: stdlib folder - package.json pre and post pack added
+  [#30](https://github.com/JantaeLeckie/frontier_test/pull/30)
+
+  stdlib folder updated
+
+  - package.json file postpack and prepack added
+
+- Updated dependencies [6c21843]
+  - @jantaeleckie/stdlib@0.0.5
+  - @jantaeleckie/plugin-shared@0.0.5
+
 ## 1.0.3
 
 ### Patch Changes

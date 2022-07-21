@@ -1,5 +1,16 @@
 # @jantaeleckie/stdlib
 
+## 0.0.5
+
+### Patch Changes
+
+- 6c21843: stdlib folder - package.json pre and post pack added
+  [#30](https://github.com/JantaeLeckie/frontier_test/pull/30)
+
+  stdlib folder updated
+
+  - package.json file postpack and prepack added
+
 ## 0.0.4
 
 ### Patch Changes
