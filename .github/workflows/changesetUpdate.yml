@@ -32,12 +32,12 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node_version: 16
-        
+    
     - name: Install Packages
       run: yarn install
     - name: Build Packages
       run: yarn build:packages
-
+      
     - name: Set Github Configuration
       run: |
         git add .
