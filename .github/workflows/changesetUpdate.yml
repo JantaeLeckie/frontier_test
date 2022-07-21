@@ -6,7 +6,7 @@
 name: 'Update Changelog on Merged PR Releases and Create Release PR'
 on:
   pull_request:
-    branches:
+    branches: 
       - 'test'
     types: [closed]
       
