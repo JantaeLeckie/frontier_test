@@ -1,5 +1,14 @@
 # @jantaeleckie/lib-builder
 
+## 1.0.2
+
+### Patch Changes
+
+- 045a0e2: all packages updated to jantaeleckie 5
+  [#28](https://github.com/JantaeLeckie/frontier_test/pull/28)
+
+  npm publish test
+
 ## 1.0.1
 
 ### Patch Changes

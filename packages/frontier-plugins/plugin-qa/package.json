@@ -1,7 +1,7 @@
 {
   "name": "@jantaeleckie/plugin-qa",
   "description": "QA toolchain for generating automation projects",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "RealDecoy",
   "bin": {
     "rdspec": "./bin/run"
@@ -11,7 +11,7 @@
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.2",
-    "@jantaeleckie/stdlib": "^0.0.3",
+    "@jantaeleckie/stdlib": "^0.0.4",
     "chalk": "^4.1.1",
     "replace-in-file": "^6.2.0",
     "shelljs": "^0.8.4",
@@ -20,7 +20,7 @@
   "devDependencies": {
     "@oclif/dev-cli": "^1.26.0",
     "@oclif/test": "^1.2.8",
-    "@jantaeleckie/lib-builder": "^1.0.1",
+    "@jantaeleckie/lib-builder": "^1.0.2",
     "@types/chai": "^4.2.19",
     "@types/mocha": "^5.2.7",
     "@types/node": "^10.17.60",
