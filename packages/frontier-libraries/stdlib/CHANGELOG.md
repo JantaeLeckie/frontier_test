@@ -1,5 +1,16 @@
 # @jantaeleckie/stdlib
 
+## 0.0.6
+
+### Patch Changes
+
+- 41189c6: stdlib folder - tsconfig.json updated1
+  [#32](https://github.com/JantaeLeckie/frontier_test/pull/32)
+
+  stlib folder updated
+
+  - tsconfig.json has been updated
+
 ## 0.0.5
 
 ### Patch Changes

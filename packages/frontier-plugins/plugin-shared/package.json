@@ -1,6 +1,6 @@
 {
   "name": "@jantaeleckie/plugin-shared",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "plugin shared functionalities",
   "license": "UNLICENSED",
   "author": "Realdecoy",
@@ -43,7 +43,7 @@
   "types": "types/index.d.ts",
   "dependencies": {
     "@babel/runtime": "^7.15.0",
-    "@jantaeleckie/stdlib": "^0.0.5"
+    "@jantaeleckie/stdlib": "^0.0.6"
   },
   "devDependencies": {
     "@jantaeleckie/lib-builder": "^1.0.2"
