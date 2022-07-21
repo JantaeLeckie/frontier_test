@@ -1,14 +1,14 @@
 {
   "name": "@jantaeleckie/plugin-qa",
   "description": "QA toolchain for generating automation projects",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "author": "RealDecoy",
   "bin": {
     "rdspec": "./bin/run"
   },
   "bugs": "https://github.com/JantaeLeckie/frontier_test/issues",
   "dependencies": {
-    "@jantaeleckie/stdlib": "^0.0.8",
+    "@jantaeleckie/stdlib": "^0.0.9",
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.2",
@@ -18,7 +18,7 @@
     "tslib": "^1.14.1"
   },
   "devDependencies": {
-    "@jantaeleckie/lib-builder": "^1.0.2",
+    "@jantaeleckie/lib-builder": "^1.0.3",
     "@oclif/dev-cli": "^1.26.0",
     "@oclif/test": "^1.2.8",
     "@types/chai": "^4.2.19",

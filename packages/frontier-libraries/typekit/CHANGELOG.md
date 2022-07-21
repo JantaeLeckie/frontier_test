@@ -1,5 +1,14 @@
 # @jantaeleckie/typekit
 
+## 0.0.4
+
+### Patch Changes
+
+- d610379: Release/workflow testing
+  [#38](https://github.com/JantaeLeckie/frontier_test/pull/38)
+
+  Testing the npm release again
+
 ## 0.0.3
 
 ### Patch Changes

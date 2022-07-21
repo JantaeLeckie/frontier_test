@@ -1,5 +1,17 @@
 # @jantaeleckie/cli
 
+## 0.0.10
+
+### Patch Changes
+
+- d610379: Release/workflow testing
+  [#38](https://github.com/JantaeLeckie/frontier_test/pull/38)
+
+  Testing the npm release again
+
+- Updated dependencies [d610379]
+  - @jantaeleckie/stdlib@0.0.9
+
 ## 0.0.9
 
 ### Patch Changes

@@ -1,5 +1,14 @@
 # @jantaeleckie/lib-builder
 
+## 1.0.3
+
+### Patch Changes
+
+- d610379: Release/workflow testing
+  [#38](https://github.com/JantaeLeckie/frontier_test/pull/38)
+
+  Testing the npm release again
+
 ## 1.0.2
 
 ### Patch Changes
